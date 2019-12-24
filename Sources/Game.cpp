@@ -1,4 +1,5 @@
 #include "Game.h"
+#include "TextureManager.h"
 
 Game::Game()
 {}
@@ -33,9 +34,7 @@ void Game::init(char *title, int x, int y, int width, int height, bool fullscree
          _isRunning = true;
 
          // Player Init
-        SDL_Surface *tmpSurface = IMG_Load("../Assets/player.png");
-        _playerTex = SDL_CreateTextureFromSurface(_renderer, tmpSurface);
-        SDL_FreeSurface(tmpSurface);
+         _playerTex = TextureManager::LoadTexture("../Assets/player.png", _renderer);
         _pRect.h = 64;
         _pRect.w = 64;
         _pRect.x = 0;

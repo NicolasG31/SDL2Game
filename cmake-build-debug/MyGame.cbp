@@ -82,13 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/nicolas/work/SDL2Game/Game.cpp">
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/Game.cpp">
 			<Option target="MyGame"/>
 		</Unit>
-		<Unit filename="/Users/nicolas/work/SDL2Game/Game.h">
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/Game.h">
 			<Option target="MyGame"/>
 		</Unit>
-		<Unit filename="/Users/nicolas/work/SDL2Game/main.cpp">
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/TextureManager.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/TextureManager.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/main.cpp">
 			<Option target="MyGame"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/work/SDL2Game/CMakeLists.txt">

@@ -15,5 +15,5 @@ find_package(SDL2_image REQUIRED >=2.0.0)
 include_directories(${SDL2_INCLUDE_DIR})
 include_directories(${SDL2_IMAGE_INCLUDE_DIR})
 
-add_executable(${PROJECT_NAME} main.cpp Game.cpp Game.h)
+add_executable(${PROJECT_NAME} Sources/main.cpp Sources/Game.cpp Sources/Game.h Sources/TextureManager.cpp Sources/TextureManager.h)
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARY})

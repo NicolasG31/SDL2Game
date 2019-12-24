@@ -57,46 +57,61 @@ include CMakeFiles/MyGame.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyGame.dir/flags.make
 
-CMakeFiles/MyGame.dir/main.cpp.o: CMakeFiles/MyGame.dir/flags.make
-CMakeFiles/MyGame.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyGame.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/main.cpp.o -c /Users/nicolas/work/SDL2Game/main.cpp
+CMakeFiles/MyGame.dir/Sources/main.cpp.o: CMakeFiles/MyGame.dir/flags.make
+CMakeFiles/MyGame.dir/Sources/main.cpp.o: ../Sources/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyGame.dir/Sources/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/Sources/main.cpp.o -c /Users/nicolas/work/SDL2Game/Sources/main.cpp
 
-CMakeFiles/MyGame.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/work/SDL2Game/main.cpp > CMakeFiles/MyGame.dir/main.cpp.i
+CMakeFiles/MyGame.dir/Sources/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/Sources/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/work/SDL2Game/Sources/main.cpp > CMakeFiles/MyGame.dir/Sources/main.cpp.i
 
-CMakeFiles/MyGame.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/work/SDL2Game/main.cpp -o CMakeFiles/MyGame.dir/main.cpp.s
+CMakeFiles/MyGame.dir/Sources/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/Sources/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/work/SDL2Game/Sources/main.cpp -o CMakeFiles/MyGame.dir/Sources/main.cpp.s
 
-CMakeFiles/MyGame.dir/Game.cpp.o: CMakeFiles/MyGame.dir/flags.make
-CMakeFiles/MyGame.dir/Game.cpp.o: ../Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyGame.dir/Game.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/Game.cpp.o -c /Users/nicolas/work/SDL2Game/Game.cpp
+CMakeFiles/MyGame.dir/Sources/Game.cpp.o: CMakeFiles/MyGame.dir/flags.make
+CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyGame.dir/Sources/Game.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/Sources/Game.cpp.o -c /Users/nicolas/work/SDL2Game/Sources/Game.cpp
 
-CMakeFiles/MyGame.dir/Game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/Game.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/work/SDL2Game/Game.cpp > CMakeFiles/MyGame.dir/Game.cpp.i
+CMakeFiles/MyGame.dir/Sources/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/Sources/Game.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/work/SDL2Game/Sources/Game.cpp > CMakeFiles/MyGame.dir/Sources/Game.cpp.i
 
-CMakeFiles/MyGame.dir/Game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/Game.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/work/SDL2Game/Game.cpp -o CMakeFiles/MyGame.dir/Game.cpp.s
+CMakeFiles/MyGame.dir/Sources/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/Sources/Game.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/work/SDL2Game/Sources/Game.cpp -o CMakeFiles/MyGame.dir/Sources/Game.cpp.s
+
+CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o: CMakeFiles/MyGame.dir/flags.make
+CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o: ../Sources/TextureManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o -c /Users/nicolas/work/SDL2Game/Sources/TextureManager.cpp
+
+CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/work/SDL2Game/Sources/TextureManager.cpp > CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.i
+
+CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/work/SDL2Game/Sources/TextureManager.cpp -o CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.s
 
 # Object files for target MyGame
 MyGame_OBJECTS = \
-"CMakeFiles/MyGame.dir/main.cpp.o" \
-"CMakeFiles/MyGame.dir/Game.cpp.o"
+"CMakeFiles/MyGame.dir/Sources/main.cpp.o" \
+"CMakeFiles/MyGame.dir/Sources/Game.cpp.o" \
+"CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o"
 
 # External object files for target MyGame
 MyGame_EXTERNAL_OBJECTS =
 
-MyGame: CMakeFiles/MyGame.dir/main.cpp.o
-MyGame: CMakeFiles/MyGame.dir/Game.cpp.o
+MyGame: CMakeFiles/MyGame.dir/Sources/main.cpp.o
+MyGame: CMakeFiles/MyGame.dir/Sources/Game.cpp.o
+MyGame: CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o
 MyGame: CMakeFiles/MyGame.dir/build.make
 MyGame: /usr/local/lib/libSDL2_image.dylib
 MyGame: CMakeFiles/MyGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MyGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

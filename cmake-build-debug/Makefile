@@ -123,59 +123,86 @@ MyGame/fast:
 	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/build
 .PHONY : MyGame/fast
 
-Game.o: Game.cpp.o
+Sources/Game.o: Sources/Game.cpp.o
 
-.PHONY : Game.o
-
-# target to build an object file
-Game.cpp.o:
-	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Game.cpp.o
-.PHONY : Game.cpp.o
-
-Game.i: Game.cpp.i
-
-.PHONY : Game.i
-
-# target to preprocess a source file
-Game.cpp.i:
-	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Game.cpp.i
-.PHONY : Game.cpp.i
-
-Game.s: Game.cpp.s
-
-.PHONY : Game.s
-
-# target to generate assembly for a file
-Game.cpp.s:
-	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Game.cpp.s
-.PHONY : Game.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : Sources/Game.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/main.cpp.o
-.PHONY : main.cpp.o
+Sources/Game.cpp.o:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/Game.cpp.o
+.PHONY : Sources/Game.cpp.o
 
-main.i: main.cpp.i
+Sources/Game.i: Sources/Game.cpp.i
 
-.PHONY : main.i
+.PHONY : Sources/Game.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/main.cpp.i
-.PHONY : main.cpp.i
+Sources/Game.cpp.i:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/Game.cpp.i
+.PHONY : Sources/Game.cpp.i
 
-main.s: main.cpp.s
+Sources/Game.s: Sources/Game.cpp.s
 
-.PHONY : main.s
+.PHONY : Sources/Game.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/main.cpp.s
-.PHONY : main.cpp.s
+Sources/Game.cpp.s:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/Game.cpp.s
+.PHONY : Sources/Game.cpp.s
+
+Sources/TextureManager.o: Sources/TextureManager.cpp.o
+
+.PHONY : Sources/TextureManager.o
+
+# target to build an object file
+Sources/TextureManager.cpp.o:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o
+.PHONY : Sources/TextureManager.cpp.o
+
+Sources/TextureManager.i: Sources/TextureManager.cpp.i
+
+.PHONY : Sources/TextureManager.i
+
+# target to preprocess a source file
+Sources/TextureManager.cpp.i:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.i
+.PHONY : Sources/TextureManager.cpp.i
+
+Sources/TextureManager.s: Sources/TextureManager.cpp.s
+
+.PHONY : Sources/TextureManager.s
+
+# target to generate assembly for a file
+Sources/TextureManager.cpp.s:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.s
+.PHONY : Sources/TextureManager.cpp.s
+
+Sources/main.o: Sources/main.cpp.o
+
+.PHONY : Sources/main.o
+
+# target to build an object file
+Sources/main.cpp.o:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/main.cpp.o
+.PHONY : Sources/main.cpp.o
+
+Sources/main.i: Sources/main.cpp.i
+
+.PHONY : Sources/main.i
+
+# target to preprocess a source file
+Sources/main.cpp.i:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/main.cpp.i
+.PHONY : Sources/main.cpp.i
+
+Sources/main.s: Sources/main.cpp.s
+
+.PHONY : Sources/main.s
+
+# target to generate assembly for a file
+Sources/main.cpp.s:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/main.cpp.s
+.PHONY : Sources/main.cpp.s
 
 # Help Target
 help:
@@ -186,12 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MyGame"
-	@echo "... Game.o"
-	@echo "... Game.i"
-	@echo "... Game.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Sources/Game.o"
+	@echo "... Sources/Game.i"
+	@echo "... Sources/Game.s"
+	@echo "... Sources/TextureManager.o"
+	@echo "... Sources/TextureManager.i"
+	@echo "... Sources/TextureManager.s"
+	@echo "... Sources/main.o"
+	@echo "... Sources/main.i"
+	@echo "... Sources/main.s"
 .PHONY : help
 
 

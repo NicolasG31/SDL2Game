@@ -1,5 +1,5 @@
-#ifndef MYGAME_GAME_H
-#define MYGAME_GAME_H
+#ifndef _GAME_H
+#define _GAME_H
 
 #include <SDL.h>
 #include <SDL_image.h>
@@ -31,4 +31,4 @@ private:
 };
 
 
-#endif //MYGAME_GAME_H
+#endif //_GAME_H
