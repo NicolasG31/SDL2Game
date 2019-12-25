@@ -150,6 +150,33 @@ Sources/Game.cpp.s:
 	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/Game.cpp.s
 .PHONY : Sources/Game.cpp.s
 
+Sources/GameObject.o: Sources/GameObject.cpp.o
+
+.PHONY : Sources/GameObject.o
+
+# target to build an object file
+Sources/GameObject.cpp.o:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/GameObject.cpp.o
+.PHONY : Sources/GameObject.cpp.o
+
+Sources/GameObject.i: Sources/GameObject.cpp.i
+
+.PHONY : Sources/GameObject.i
+
+# target to preprocess a source file
+Sources/GameObject.cpp.i:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/GameObject.cpp.i
+.PHONY : Sources/GameObject.cpp.i
+
+Sources/GameObject.s: Sources/GameObject.cpp.s
+
+.PHONY : Sources/GameObject.s
+
+# target to generate assembly for a file
+Sources/GameObject.cpp.s:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/GameObject.cpp.s
+.PHONY : Sources/GameObject.cpp.s
+
 Sources/TextureManager.o: Sources/TextureManager.cpp.o
 
 .PHONY : Sources/TextureManager.o
@@ -216,6 +243,9 @@ help:
 	@echo "... Sources/Game.o"
 	@echo "... Sources/Game.i"
 	@echo "... Sources/Game.s"
+	@echo "... Sources/GameObject.o"
+	@echo "... Sources/GameObject.i"
+	@echo "... Sources/GameObject.s"
 	@echo "... Sources/TextureManager.o"
 	@echo "... Sources/TextureManager.i"
 	@echo "... Sources/TextureManager.s"

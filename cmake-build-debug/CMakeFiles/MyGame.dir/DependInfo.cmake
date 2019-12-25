@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/nicolas/work/SDL2Game/Sources/Game.cpp" "/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles/MyGame.dir/Sources/Game.cpp.o"
+  "/Users/nicolas/work/SDL2Game/Sources/GameObject.cpp" "/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles/MyGame.dir/Sources/GameObject.cpp.o"
   "/Users/nicolas/work/SDL2Game/Sources/TextureManager.cpp" "/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o"
   "/Users/nicolas/work/SDL2Game/Sources/main.cpp" "/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles/MyGame.dir/Sources/main.cpp.o"
   )

@@ -5,6 +5,9 @@
 #include <SDL_image.h>
 #include <iostream>
 
+#include "GameObject.h"
+#include "TextureManager.h"
+
 class Game {
 
 public:
@@ -24,10 +27,6 @@ private:
     bool            _isRunning;
     SDL_Window      *_window;
     SDL_Renderer    *_renderer;
-
-    // Player related
-    SDL_Texture     *_playerTex;
-    SDL_Rect        _pRect;
 };
 
 
