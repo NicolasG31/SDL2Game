@@ -1,7 +1,6 @@
 #include "Game.h"
 
-GameObject      *player;
-GameObject      *enemy;
+SDL_Renderer *Game::renderer = nullptr;
 
 Game::Game()
 {}
@@ -26,18 +25,19 @@ void Game::init(char *title, int x, int y, int width, int height, bool fullscree
          }
 
          // Initializing renderer
-         _renderer = SDL_CreateRenderer(_window, -1, 0);
-         if (_renderer)
+         renderer = SDL_CreateRenderer(_window, -1, 0);
+         if (renderer)
          {
-             SDL_SetRenderDrawColor(_renderer, 255, 255, 255, 255);
+             SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
              std::cout << "Renderer created" << std::endl;
          }
 
          _isRunning = true;
 
          // Player Init
-         player = new GameObject("../Assets/player.png", _renderer, 0, 0);
-         enemy = new GameObject("../Assets/enemy.png", _renderer, 50, 50);
+        _player = new GameObject("../Assets/player.png", 0, 0);
+        _enemy = new GameObject("../Assets/enemy.png", 50, 50);
+        _map = new Map();
     }
     else
     {
@@ -62,25 +62,26 @@ void Game::handleEvents()
 
 void Game::update()
 {
-    player->update();
-    enemy->update();
+    _player->update();
+    _enemy->update();
 }
 
 void Game::clean()
 {
     SDL_DestroyWindow(_window);
-    SDL_DestroyRenderer(_renderer);
+    SDL_DestroyRenderer(renderer);
     SDL_Quit();
     std::cout << "Game cleaned" << std::endl;
 }
 
 void Game::render()
 {
-    SDL_RenderClear(_renderer);
+    SDL_RenderClear(renderer);
     //Add stuff to render
-    player->render();
-    enemy->render();
-    SDL_RenderPresent(_renderer);
+    _map->drawMap();
+    _player->render();
+    _enemy->render();
+    SDL_RenderPresent(renderer);
 }
 
 bool Game::running()

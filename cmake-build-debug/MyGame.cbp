@@ -94,6 +94,12 @@
 		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/GameObject.h">
 			<Option target="MyGame"/>
 		</Unit>
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/Map.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/Map.h">
+			<Option target="MyGame"/>
+		</Unit>
 		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/TextureManager.cpp">
 			<Option target="MyGame"/>
 		</Unit>

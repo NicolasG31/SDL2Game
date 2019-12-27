@@ -177,6 +177,33 @@ Sources/GameObject.cpp.s:
 	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/GameObject.cpp.s
 .PHONY : Sources/GameObject.cpp.s
 
+Sources/Map.o: Sources/Map.cpp.o
+
+.PHONY : Sources/Map.o
+
+# target to build an object file
+Sources/Map.cpp.o:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/Map.cpp.o
+.PHONY : Sources/Map.cpp.o
+
+Sources/Map.i: Sources/Map.cpp.i
+
+.PHONY : Sources/Map.i
+
+# target to preprocess a source file
+Sources/Map.cpp.i:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/Map.cpp.i
+.PHONY : Sources/Map.cpp.i
+
+Sources/Map.s: Sources/Map.cpp.s
+
+.PHONY : Sources/Map.s
+
+# target to generate assembly for a file
+Sources/Map.cpp.s:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/Map.cpp.s
+.PHONY : Sources/Map.cpp.s
+
 Sources/TextureManager.o: Sources/TextureManager.cpp.o
 
 .PHONY : Sources/TextureManager.o
@@ -246,6 +273,9 @@ help:
 	@echo "... Sources/GameObject.o"
 	@echo "... Sources/GameObject.i"
 	@echo "... Sources/GameObject.s"
+	@echo "... Sources/Map.o"
+	@echo "... Sources/Map.i"
+	@echo "... Sources/Map.s"
 	@echo "... Sources/TextureManager.o"
 	@echo "... Sources/TextureManager.i"
 	@echo "... Sources/TextureManager.s"

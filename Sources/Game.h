@@ -7,6 +7,7 @@
 
 #include "GameObject.h"
 #include "TextureManager.h"
+#include "Map.h"
 
 class Game {
 
@@ -15,18 +16,22 @@ public:
     ~Game();
 
     void init(char *title, int x, int y, int width, int height, bool fullscreen);
-
     void handleEvents();
     void update();
     void render();
     void clean();
-
     bool running();
+
+    static SDL_Renderer *renderer;
 
 private:
     bool            _isRunning;
     SDL_Window      *_window;
-    SDL_Renderer    *_renderer;
+
+    GameObject      *_player;
+    GameObject      *_enemy;
+    Map             *_map;
+
 };
 
 

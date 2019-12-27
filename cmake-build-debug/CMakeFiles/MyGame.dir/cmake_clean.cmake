@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MyGame.dir/Sources/Game.cpp.o"
   "CMakeFiles/MyGame.dir/Sources/GameObject.cpp.o"
+  "CMakeFiles/MyGame.dir/Sources/Map.cpp.o"
   "CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o"
   "CMakeFiles/MyGame.dir/Sources/main.cpp.o"
   "MyGame"

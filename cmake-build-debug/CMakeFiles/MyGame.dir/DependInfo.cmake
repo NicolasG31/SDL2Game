@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/nicolas/work/SDL2Game/Sources/Game.cpp" "/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles/MyGame.dir/Sources/Game.cpp.o"
   "/Users/nicolas/work/SDL2Game/Sources/GameObject.cpp" "/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles/MyGame.dir/Sources/GameObject.cpp.o"
+  "/Users/nicolas/work/SDL2Game/Sources/Map.cpp" "/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles/MyGame.dir/Sources/Map.cpp.o"
   "/Users/nicolas/work/SDL2Game/Sources/TextureManager.cpp" "/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o"
   "/Users/nicolas/work/SDL2Game/Sources/main.cpp" "/Users/nicolas/work/SDL2Game/cmake-build-debug/CMakeFiles/MyGame.dir/Sources/main.cpp.o"
   )

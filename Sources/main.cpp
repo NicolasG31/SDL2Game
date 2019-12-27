@@ -9,7 +9,7 @@ int main(int av, char *ac[])
     Uint32 frameTime;
 
     Game *game = new Game();
-    game->init("My Game", 10, 10, 800, 600, false);
+    game->init("My Game", 10, 10, 800, 640, false);
 
     while (game->running())
     {

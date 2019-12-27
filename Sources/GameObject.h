@@ -1,12 +1,12 @@
 #ifndef _GAME_OBJECT_H
 #define _GAME_OBJECT_H
 
-#include "Game.h"
+#include <SDL.h>
 
 class GameObject {
 
 public:
-    GameObject(const char* textureSheet, SDL_Renderer* ren, int x, int y);
+    GameObject(const char* textureSheet, int x, int y);
     ~GameObject();
 
     void update();
@@ -17,7 +17,6 @@ private:
     int _ypos;
     SDL_Texture *_texture;
     SDL_Rect _srcRect, _dstRect;
-    SDL_Renderer *_renderer;
 
 };
 
