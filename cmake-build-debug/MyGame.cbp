@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/ECS/Components.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/ECS/ECS.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/ECS/PositionComponent.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/ECS/SpriteComponent.h">
+			<Option target="MyGame"/>
+		</Unit>
 		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/Game.cpp">
 			<Option target="MyGame"/>
 		</Unit>

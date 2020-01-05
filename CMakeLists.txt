@@ -21,5 +21,9 @@ add_executable(${PROJECT_NAME} Sources/main.cpp
         Sources/GameObject.cpp
         Sources/GameObject.h
         Sources/TextureManager.cpp
-        Sources/TextureManager.h Sources/Map.cpp Sources/Map.h)
+        Sources/TextureManager.h
+        Sources/Map.cpp
+        Sources/Map.h
+        Sources/ECS/ECS.h
+        Sources/ECS/Components.h Sources/ECS/SpriteComponent.h Sources/ECS/PositionComponent.h)
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARY})

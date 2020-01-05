@@ -1,6 +1,16 @@
 #include "Game.h"
 
+#include "GameObject.h"
+#include "TextureManager.h"
+#include "Map.h"
+#include "ECS/ECS.h"
+#include "ECS/Components.h"
+
 SDL_Renderer *Game::renderer = nullptr;
+
+Map *map;
+Manager manager;
+auto& player(manager.addEntity());
 
 Game::Game()
 {}
@@ -35,9 +45,9 @@ void Game::init(char *title, int x, int y, int width, int height, bool fullscree
          _isRunning = true;
 
          // Player Init
-        _player = new GameObject("../Assets/player.png", 0, 0);
-        _enemy = new GameObject("../Assets/enemy.png", 50, 50);
-        _map = new Map();
+        map = new Map();
+        player.addComponent<PositionComponent>(0, 0);
+        player.addComponent<SpriteComponent>("../Assets/player.png");
     }
     else
     {
@@ -62,8 +72,7 @@ void Game::handleEvents()
 
 void Game::update()
 {
-    _player->update();
-    _enemy->update();
+    manager.update();
 }
 
 void Game::clean()
@@ -78,9 +87,8 @@ void Game::render()
 {
     SDL_RenderClear(renderer);
     //Add stuff to render
-    _map->drawMap();
-    _player->render();
-    _enemy->render();
+    map->drawMap();
+    manager.draw();
     SDL_RenderPresent(renderer);
 }
 

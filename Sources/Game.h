@@ -5,10 +5,6 @@
 #include <SDL_image.h>
 #include <iostream>
 
-#include "GameObject.h"
-#include "TextureManager.h"
-#include "Map.h"
-
 class Game {
 
 public:
@@ -27,11 +23,6 @@ public:
 private:
     bool            _isRunning;
     SDL_Window      *_window;
-
-    GameObject      *_player;
-    GameObject      *_enemy;
-    Map             *_map;
-
 };
 
 

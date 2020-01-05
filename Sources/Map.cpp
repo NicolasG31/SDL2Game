@@ -61,7 +61,6 @@ void Map::drawMap()
         for (int column = 0; column < 25; column++)
         {
             type = _map[row][column];
-            std::cout << type << std::endl;
             _dstRect.x = column * 32;
             _dstRect.y = row * 32;
 
