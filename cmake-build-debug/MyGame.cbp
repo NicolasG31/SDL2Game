@@ -88,10 +88,10 @@
 		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/ECS/ECS.h">
 			<Option target="MyGame"/>
 		</Unit>
-		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/ECS/PositionComponent.h">
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/ECS/SpriteComponent.h">
 			<Option target="MyGame"/>
 		</Unit>
-		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/ECS/SpriteComponent.h">
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/ECS/TransformComponent.h">
 			<Option target="MyGame"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/Game.cpp">
@@ -116,6 +116,12 @@
 			<Option target="MyGame"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/TextureManager.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/Vector2D.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/Vector2D.h">
 			<Option target="MyGame"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/work/SDL2Game/Sources/main.cpp">

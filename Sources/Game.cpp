@@ -1,12 +1,13 @@
 #include "Game.h"
 
 #include "GameObject.h"
-#include "TextureManager.h"
 #include "Map.h"
 #include "ECS/ECS.h"
 #include "ECS/Components.h"
+#include "Vector2D.h"
 
 SDL_Renderer *Game::renderer = nullptr;
+SDL_Event Game::event;
 
 Map *map;
 Manager manager;
@@ -46,7 +47,7 @@ void Game::init(char *title, int x, int y, int width, int height, bool fullscree
 
          // Player Init
         map = new Map();
-        player.addComponent<PositionComponent>(0, 0);
+        player.addComponent<TransformComponent>();
         player.addComponent<SpriteComponent>("../Assets/player.png");
     }
     else
@@ -57,8 +58,6 @@ void Game::init(char *title, int x, int y, int width, int height, bool fullscree
 
 void Game::handleEvents()
 {
-    SDL_Event event;
-
     SDL_PollEvent(&event);
     switch (event.type)
     {
@@ -72,7 +71,15 @@ void Game::handleEvents()
 
 void Game::update()
 {
+    manager.refresh();
     manager.update();
+
+    player.getComponent<TransformComponent>().position.Add(Vector2D(1, 1));
+
+    if (player.getComponent<TransformComponent>().position.x > 100)
+    {
+        player.getComponent<SpriteComponent>().setTexture("../Assets/enemy.png");
+    }
 }
 
 void Game::clean()

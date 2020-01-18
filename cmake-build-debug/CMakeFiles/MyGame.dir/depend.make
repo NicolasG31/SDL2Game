@@ -3,13 +3,14 @@
 
 CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/ECS/Components.h
 CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/ECS/ECS.h
-CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/ECS/PositionComponent.h
 CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/ECS/SpriteComponent.h
+CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/ECS/TransformComponent.h
 CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/Game.cpp
 CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/Game.h
 CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/GameObject.h
 CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/Map.h
 CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/TextureManager.h
+CMakeFiles/MyGame.dir/Sources/Game.cpp.o: ../Sources/Vector2D.h
 CMakeFiles/MyGame.dir/Sources/Game.cpp.o: /usr/local/include/SDL2/SDL.h
 CMakeFiles/MyGame.dir/Sources/Game.cpp.o: /usr/local/include/SDL2/SDL_assert.h
 CMakeFiles/MyGame.dir/Sources/Game.cpp.o: /usr/local/include/SDL2/SDL_atomic.h
@@ -208,6 +209,9 @@ CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o: /usr/local/include/SDL2/SDL_
 CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o: /usr/local/include/SDL2/SDL_video.h
 CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o: /usr/local/include/SDL2/begin_code.h
 CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.o: /usr/local/include/SDL2/close_code.h
+
+CMakeFiles/MyGame.dir/Sources/Vector2D.cpp.o: ../Sources/Vector2D.cpp
+CMakeFiles/MyGame.dir/Sources/Vector2D.cpp.o: ../Sources/Vector2D.h
 
 CMakeFiles/MyGame.dir/Sources/main.cpp.o: ../Sources/Game.h
 CMakeFiles/MyGame.dir/Sources/main.cpp.o: ../Sources/main.cpp

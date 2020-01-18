@@ -231,6 +231,33 @@ Sources/TextureManager.cpp.s:
 	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/TextureManager.cpp.s
 .PHONY : Sources/TextureManager.cpp.s
 
+Sources/Vector2D.o: Sources/Vector2D.cpp.o
+
+.PHONY : Sources/Vector2D.o
+
+# target to build an object file
+Sources/Vector2D.cpp.o:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/Vector2D.cpp.o
+.PHONY : Sources/Vector2D.cpp.o
+
+Sources/Vector2D.i: Sources/Vector2D.cpp.i
+
+.PHONY : Sources/Vector2D.i
+
+# target to preprocess a source file
+Sources/Vector2D.cpp.i:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/Vector2D.cpp.i
+.PHONY : Sources/Vector2D.cpp.i
+
+Sources/Vector2D.s: Sources/Vector2D.cpp.s
+
+.PHONY : Sources/Vector2D.s
+
+# target to generate assembly for a file
+Sources/Vector2D.cpp.s:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Sources/Vector2D.cpp.s
+.PHONY : Sources/Vector2D.cpp.s
+
 Sources/main.o: Sources/main.cpp.o
 
 .PHONY : Sources/main.o
@@ -279,6 +306,9 @@ help:
 	@echo "... Sources/TextureManager.o"
 	@echo "... Sources/TextureManager.i"
 	@echo "... Sources/TextureManager.s"
+	@echo "... Sources/Vector2D.o"
+	@echo "... Sources/Vector2D.i"
+	@echo "... Sources/Vector2D.s"
 	@echo "... Sources/main.o"
 	@echo "... Sources/main.i"
 	@echo "... Sources/main.s"

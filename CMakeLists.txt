@@ -25,5 +25,7 @@ add_executable(${PROJECT_NAME} Sources/main.cpp
         Sources/Map.cpp
         Sources/Map.h
         Sources/ECS/ECS.h
-        Sources/ECS/Components.h Sources/ECS/SpriteComponent.h Sources/ECS/PositionComponent.h)
+        Sources/ECS/Components.h
+        Sources/ECS/SpriteComponent.h
+        Sources/ECS/TransformComponent.h Sources/Vector2D.h Sources/Vector2D.cpp)
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARY})
